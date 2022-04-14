@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Open+Sans&family=Poppins:wght@400;500;600&display=swap');
+nav a {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins:wght@400;500;600', sans-serif;
+}
+:root {
+  --blue: #1e90ff;
+  --dark: #282a36;
+  --shadow: #ababab;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--blue);
+}
+.myImage {
+  background: linear-gradient(45deg, var(--blue), transparent);
+  width: 275px;
+  height: 275px;
+  border-radius: 2rem;
+}
+.myImage2 {
+  width: 275px;
+  height: 275px;
+  border-radius: 2rem;
+  transition: 1s all;
+  transform: rotate(10deg);
+}
+.myImage2:hover {
+  transition: 1s all;
+  transform: rotate(0deg);
+}
+.dart-image {
+  width: 40px;
+  height: 40px;
+}
+.Main {
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 250px;
+}
+.Main img {
+  border-radius: 80px 80px 0 0;
+  margin-bottom: 20px;
+}
+.Main p {
+  margin-bottom: 50px;
+}
+.D-link {
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: none;
+  border: solid 2px var(--blue);
+}
+.D-link:hover {
+  color: white !important;
+  background-color: #1e90f0 !important;
+}
+#About {
+  margin-top: 250px;
+  margin-bottom: 210px;
+}
+#Skills {
+  margin-top: 65px;
+  margin-bottom: 210px;
+}
+.jumper {
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+}
+.jumper a {
+  text-decoration: none;
+  background-color: var(--blue);
+  padding: 10px;
+  border-radius: 10px;
+}
+.Main ul li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+.Main ul {
+  margin-top: 25px;
+  margin-right: 25px;
+}
+.email-item,
+.location-item {
+  margin-left: 55px;
+}
+
+.con-head {
+  margin-left: 45px;
+}
+.nav-link {
+  color: var(--blue) !important;
+}
+.nav-link:hover {
+  color: #1e90ff !important;
+}
