@@ -1,0 +1,211 @@
+:root {
+  --primary-text-color: #fff;
+  --secondary-text-color: #59616a;
+  --primary-background-color: #154128;
+  --secondary-background-color: #0f2b1c;
+  --primary-border-color: #236740;
+  --secondary-border-color: #133723;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-text-color);
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 17px;
+}
+.page-style {
+  padding: 25px;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.header-menu > ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+a {
+  cursor: pointer;
+}
+.header-menu > ul > li > a {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+.header-menu > ul > li > a:hover {
+  color: var(--primary-text-color);
+}
+#home {
+  color: var(--primary-text-color);
+}
+body {
+  margin: 0;
+  background: linear-gradient(175deg, #000, rgb(14, 41, 26));
+}
+.second-content {
+  padding-bottom: 0;
+  padding-top: 0;
+  padding: 30px;
+  background-color: var(--primary-background-color);
+  border-radius: 5px;
+  border: solid 2px var(--primary-border-color);
+  margin-top: 20px;
+}
+.text-wrap {
+  text-wrap: wrap;
+}
+.bi-github,
+.bi-linkedin,
+.bi-instagram,
+.bi-filetype-pdf {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.seond-content-icons {
+  gap: 20px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.second-content > div > h1 {
+  font-size: 40px;
+  @media screen and (max-width: 800px) {
+    font-size: 25px;
+  }
+}
+.second-content > div > p {
+  opacity: 0.7;
+}
+.threeth-content > h1,
+.fourth-content > h1,
+.fifth-contet > h1,
+.sixth-content > h1 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
+}
+.programmed-content-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.programmed-content-box > i {
+  font-size: 50px;
+  background-color: transparent;
+}
+.programmed-content-box {
+  background-color: var(--secondary-background-color);
+  width: 120px;
+  cursor: pointer;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 2px var(--secondary-border-color);
+}
+.programmed-content-box:hover {
+  border-color: var(--primary-border-color);
+}
+.project-types {
+  gap: 20px;
+}
+.project-types > h4 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background-color: var(--secondary-background-color);
+  border: solid 2px var(--secondary-border-color);
+  cursor: pointer;
+  font-size: 14px;
+  @media screen and (max-width: 800px) {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+#all-projects {
+  background-color: var(--primary-background-color);
+  border-color: var(--primary-border-color);
+}
+.image-container {
+  max-width: 1000px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.header-menu {
+  display: flex;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.projects-carts-holder {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.project-cart {
+  width: 350px;
+  padding: 10px;
+  background-color: var(--secondary-background-color);
+  border-radius: 15px;
+  border: solid 2px var(--secondary-border-color);
+}
+.cart-icons {
+  font-size: 30px;
+  cursor: pointer;
+}
+.project-cart > p {
+  opacity: 0.7;
+  bottom: 0;
+}
+.project-cart > div {
+  margin-top: 10px;
+}
+.project-cart:hover {
+  border-color: var(--primary-border-color);
+}
+.project-cart > img {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.services-types {
+  gap: 20px;
+  text-align: center;
+}
+.services-types > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: solid 2px var(--primary-border-color);
+  background-color: var(--primary-background-color);
+}
